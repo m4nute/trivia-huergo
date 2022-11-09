@@ -1,0 +1,26 @@
+@import './variables.scss';
+.answers {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.answer {
+    margin-bottom: 2rem;
+    border: 0;
+    color: #fff;
+    background-color: $secondary;
+    height: 4.5rem;
+    width: 47%;
+    font-size: 1.7em;
+    transition: .15s;
+    &:hover {
+        cursor: pointer;
+        background-color: $hover;
+        transition: .15s;
+    }
+}
+.title {
+    margin-top: 3rem;
+    text-align: center;
+}

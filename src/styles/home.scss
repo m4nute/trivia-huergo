@@ -1,0 +1,54 @@
+@import './variables.scss';
+
+.homePage {
+    width: 80%;
+    margin: 0 10%;
+    padding-top: 5rem;
+    height: 85vh;
+}
+.homeTitle {
+    h1 {
+        color: $primary;
+        font-size: 4em;
+    }
+    h2 {
+        padding-left: .5rem;
+        font-size: 2.5em;
+    }
+    span {
+        color: $secondary;
+    }
+}
+.homeButtons {
+    margin-top: 3rem;
+    h2 {
+        margin-bottom: .5rem;
+    }
+    span {
+        color: $primary;
+    }
+}
+.btnHome {
+    color: #fff;
+    background-color: $secondary;
+    height: 3.2rem;
+    width: 20%;
+    border: 0;
+    font-size: 1.3em;
+    transition: .4s;
+    margin-right: 1rem;
+    &:hover{
+        cursor: pointer;
+        background-color: $hover;
+        transition: .4s;
+    }
+}
+.desc {
+    margin-top: 4rem;
+    h3 {
+        font-size: 1.4em;
+        opacity: .9;
+        margin-top: 1.5rem;
+        width: 70%;
+    }
+}
