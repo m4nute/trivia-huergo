@@ -116,9 +116,15 @@ function TriviaHuergo() {
     },
     {
       question:
-        "?",
-      answers: ["1222", "901", "1054", "Ninguna de las anteriores"],
-      correct: "Ninguna de las anteriores",
+        "Cuántas salidas hay en el colegio?",
+      answers: ["4", "3", "2", "5"],
+      correct: "3",
+    },
+    {
+      question:
+        "En qué año fue la apertura del colegio?",
+      answers: ["1922", "1932", "1934", "1942"],
+      correct: "1934",
     },
   ];
   const navigate = useNavigate();

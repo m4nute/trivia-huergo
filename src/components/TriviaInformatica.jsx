@@ -132,8 +132,8 @@ function TriviaInformatica() {
     },
     {
       question: "Cual es el mayor numero de un tipo de dato INT en C/C++",
-      answers: ["2145972925", "2147483650", "", ""],
-      correct: "",
+      answers: ["2145972925", "2147483650", "2146891274", "2147483647"],
+      correct: "2147483647",
     },
   ];
   Aos.init({ duration: 1000, offset: 0, once: true });
